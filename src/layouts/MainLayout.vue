@@ -20,7 +20,6 @@ import { useAuthUserStore } from "../stores/AuthUserStore";
 
 const $q = useQuasar();
 const authUserStore = useAuthUserStore();
-const { user } = storeToRefs(authUserStore);
 
 onBeforeMount(async () => {
   await authUserStore.getAuthUser();
