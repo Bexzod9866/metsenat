@@ -1,0 +1,27 @@
+.icon-no-mrg i.q-btn-dropdown__arrow {
+  margin-left: 0 !important;
+}
+body {
+  overflow: hidden !important;
+}
+.no-icon .q-btn__content i {
+  display: none !important;
+}
+
+.q-drawer--mini {
+  width: 58px !important;
+}
+.q-dialog__backdrop {
+  background: #2b2b2b2b;
+}
+.flag {
+  min-width: 35px !important;
+  max-width: 40px !important;
+  & > img {
+    width: 100%;
+  }
+}
+.max-container {
+  max-width: 1400px;
+  margin: 10px auto;
+}
